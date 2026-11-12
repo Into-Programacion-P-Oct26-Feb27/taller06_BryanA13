@@ -80,13 +80,13 @@ public class problema02 {
 
         double total = valorBase + recargo;
 
-        System.out.printf(Locale.US, "%nPeaje \"Buena Vía\"%n"
-                + "Propietario: %s%n"
-                + "Tipo: %s%n"
-                + "    Avalúo: $%.2f%n"
-                + "    Valor base del peaje: $%.2f%n"
-                + "    Recargo: $%.2f%n%n"
-                + "    Total a cancelar: $%.2f%n",
+        System.out.printf(Locale.US, "\nPeaje \"Buena Vía\n\n"
+                + "Propietario: %s\n"
+                + "Tipo: %s\n"
+                + "    Avalúo: $%.2f\n"
+                + "    Valor base del peaje: $%.2f\n"
+                + "    Recargo: $%.2f\n\n"
+                + "    Total a cancelar: $%.2f\n",
                 propietario, descripcion, avaluo, valorBase, recargo, total);
     }
     }
